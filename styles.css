@@ -117,3 +117,30 @@ body {
   font-size: 32px;
   color: var(--branco-principal);
 }
+
+.rodape {
+  text-align: center;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.rodape__logo {
+  margin-top: 120px;
+  margin-bottom: 42px;
+}
+.rodape__lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branco-principal);
+}
+
+.rodape__texto {
+  padding: 0.8em;
+}
